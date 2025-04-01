@@ -1,4 +1,4 @@
-package com.shenzhen.dai.dyfspringai;
+package com.shenzhen.dai.ai;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

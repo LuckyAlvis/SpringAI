@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: dyf-springai
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: llama3:latest
