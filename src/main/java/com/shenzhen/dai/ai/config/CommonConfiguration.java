@@ -18,6 +18,7 @@ public class CommonConfiguration {
         return ChatClient
                 .builder(model)
                 .defaultSystem("你的名字叫贾维斯")
+                // 增加日志拦截器
                 .defaultAdvisors(new SimpleLoggerAdvisor())
                 .build();
 
